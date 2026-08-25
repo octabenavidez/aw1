@@ -30,8 +30,8 @@ Aquí se centralizan:
 | Actividad | Consigna | Estado | Entrega / Archivo |
 | :--- | :---: | :---: | :--- |
 | **Actividad 1** | [Ver Consigna](https://docs.google.com/document/d/15u0nfeNBJlR8qzPrsvT9Ewc6NKFwomSFmIQbvio1CAA/edit?usp=drive_link) | ✅ Entregada | [`actividades/actividad 1/`](./actividades/actividad%201/) |
-| **Actividad 2** | [Ver Consigna](https://docs.google.com/document/d/10ijPjORZwsYV2S74171iJj0F7BQCjfC41XT0fykX8Yc/edit?usp=drive_link) | 🔄 En revisión | [`actividades/actividad 2/`](./actividades/actividad%202/) |
-| **Actividad 3** | [Ver Consigna](https://docs.google.com/document/d/1CtdnMz-I6GhOgwwEtfvN948JnKIBc2V11Iuk0Io7bEY/edit?usp=sharing) | ⏳ Pendiente | [`actividades/actividad 3/`](./actividades/actividad%203/) |
+| **Actividad 2** | [Ver Consigna](https://docs.google.com/document/d/10ijPjORZwsYV2S74171iJj0F7BQCjfC41XT0fykX8Yc/edit?usp=drive_link) | ✅ Entregada | [`actividades/actividad 2/`](./actividades/actividad%202/) |
+| **Actividad 3** | [Ver Consigna](https://docs.google.com/document/d/1CtdnMz-I6GhOgwwEtfvN948JnKIBc2V11Iuk0Io7bEY/edit?usp=sharing) | ✅ Entregada | [`actividades/actividad 3/`](./actividades/actividad%203/) |
 
 ### 💻 Trabajos Prácticos
 
