@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Huellitas - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <img src="./recursos/imagenes/logo-mascota.webp" alt="logo huellitas">
+
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./catalogo.html">Catálogo</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <h2>Escribinos</h2>
+        <!-- Form Web -->
+        <form action="./contacto.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="tamaño-mascota">Tamaño de mascota:</label>
+            <select name="tamaño-mascota" id="tamaño-mascota">
+                <option value="pequeño">Pequeño</option>
+                <option value="mediano">Mediano</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" id="direccion">
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+
+            <!-- <input type="button" value="Enviar consulta"> -->
+
+            <button type="submit">Enviar consulta</button>
+        </form>
+
+        <h3>Donde estamos</h3>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.69251841813!2d-64.18680482508681!3d-31.422596696550368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2855d648fa1%3A0xc450c66c8b10b5d3!2sRondeau%20175%2C%20X5000AVC%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1788387781866!5m2!1ses!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@huellitas" target="_blank">
+                    @huellitas
+                </a>
+            </li>
+            <li>
+                Rondeau 175 - Cordoba
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

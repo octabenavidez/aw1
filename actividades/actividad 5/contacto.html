@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFR Fotografía - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <img src="./recursos/imagenes/logo-fotografo.jpg" alt="Logo de fotografo" width="150">
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./contacto.html">Contactanos</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Solicitar Informacion</h1>
+
+        <p>Si estás interesado en realizar una sesión fotográfica o querés consultar por alguno de los servicios,
+            completá
+            el siguiente formulario.
+            <br>
+            Indicá brevemente qué tipo de trabajo necesitás y para qué utilizarías las fotografías. Con esa información
+            podré comprender mejor tu proyecto y responder tu consulta.
+        </p>
+
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo">
+
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono" name="telefono">
+
+            <label for="servicios">Servicios</label>
+            <select name="servicios" id="servicios">
+                <option value="retratos">Retrato profesional</option>
+                <option value="marcas">Fotografía para marcas.</option>
+                <option value="productos">Fotografía de productos.</option>
+                <option value="eventos">Cobertura de eventos corporativos.</option>
+                <option value="redes">Contenido para redes sociales.</option>
+                <option value="otros">Otro.</option>
+            </select>
+
+            <label for="fecha">Fecha estimada del proyecto</label>
+            <input type="date" name="fecha" id="fecha">
+
+            <label for="cantidad">Cantidad de imagenes estimadas</label>
+            <input type="number" name="cantidad" id="cantidad">
+
+            <label for="descripcion">Descripcion del proyecto</label>
+            <input type="text" name="descripcion" id="descripcion">
+
+            <label for="medio-contacto">¿Cómo prefieres que te contacte?</label>
+            <input type="radio" name="medio-contacto" id="correo" value="correo">
+            <label for="correo">Correo</label>
+            <input type="radio" name="medio-contacto" id="telefono" value="telefono">
+            <label for="telefono">Telefono</label>
+
+            <label for="terminos">Acepta los terminos y condiciones?</label>
+            <input type="checkbox" name="terminos" id="terminos">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>
