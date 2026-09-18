@@ -1,0 +1,62 @@
+/* 
+ Sintaxis
+*/
+
+/* 
+Regla CSS
+SELECTOR {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+}
+
+*/
+
+/* Selecotores de tipo */
+
+body {
+    background-color: aqua;
+}
+
+/* header {
+    background-color: pink;
+} */
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Selectores de Clase */
+
+.vinculo-pie {
+    color: #333333;
+}
+
+/* Cabecera */
+.cabecera-principal {
+    background-color: #FF577F;
+}
+
+.cabecera-principal nav a {
+    color: #999999;
+}
+
+/* Contenido Princiapal */
+.contenido-principal {
+    background-color: #FFB7B2;
+}
+
+.contenido-principal .contenedor {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    padding: 10px;
+    border: 2px solid #000;
+    
+}
+
+/* Pie de página */
+.pie-principal {
+    background-color: #FF577F;
+}

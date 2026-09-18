@@ -1,0 +1,37 @@
+header {
+    background-color: gray;
+    padding: 20px;
+}
+
+main {
+    background-color: aqua;
+    padding: 20px;
+}
+
+footer {
+    background-color: gray;
+    padding: 20px;
+}
+
+.seccion {
+    box-sizing: border-box;
+}
+
+.seccion.seccion-presentacion {
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 1000px;
+}
+
+.seccion.seccion-servicios {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    width: 1200px;
+}
+
+.seccion.seccion-trayectoria {
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 1000px;
+}
