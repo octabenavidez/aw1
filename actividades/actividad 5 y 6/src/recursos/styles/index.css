@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: gray;
     padding: 20px;
@@ -11,10 +17,6 @@ main {
 footer {
     background-color: gray;
     padding: 20px;
-}
-
-.seccion {
-    box-sizing: border-box;
 }
 
 .seccion.seccion-presentacion {
