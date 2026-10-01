@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Catálogo</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+    <!-- utilizamos elementos semanticamente acordes y evitamos el uso de divs genericos a lo largo de todo el documento, utilizamos, header, main, footer, article, section, etc  -->
+
+    <header class="encabezado">
+
+        <!-- enlazamos el isologotipo para permitir al usuario regresar fácilmente a la página de inicio (index.html) -->
+        <!-- utilizamos el atributo alt fundamentalmente para garantizar la accesibilidad (lectores de pantalla), SEO y como texto alternativo si falla la carga de la imagen -->
+        <a href="index.html" class="enlace-logo">
+            <img src="./recursos/imagenes/logo-rs.svg" alt="Retiro Sustentable - Logotipo de las cabañas"
+                class="logo">
+        </a>
+
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html" class="enlace-menu activo">Inicio</a></li>
+                <li><a href="reservas.html" class="enlace-menu">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <!-- un <h1> por página para respetar la jerarquía de títulos y mejorar el SEO -->
+        <h1 class="titulo-principal">Cabañas para Alquiler</h1>
+        <p class="texto-intro">Bienvenido a Retiro Sustentable. Explora nuestras opciones de cabañas equipadas al pie de
+            la montaña en San Javier, Traslasierras, Córdoba.</p>
+
+        <section class="contenedor-cabanias">
+            <!-- se crearon con article las 4 "tarjetas" o cards correspondientes a las distintas cabañas y agregamos el hipervinculo que lleva a reservas.html en cada una de las tarjetas-->
+            <article class="tarjeta-cabania">
+                <img src="./recursos/imagenes/modelo1.webp" alt="Cabaña Champaquí al pie de la montaña"
+                    class="imagen-cabania">
+                <h2>Cabaña Champaquí</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                    cursus ante dapibus diam.</p>
+                <p class="precio">$45.000 / día</p>
+                <a href="reservas.html" class="boton-reservar">Reservar Cabaña</a>
+            </article>
+
+            <article class="tarjeta-cabania">
+                <img src="./recursos/imagenes/modelo2.webp" alt="Cabaña Los Hornillos en entorno arbolado"
+                    class="imagen-cabania">
+                <h2>Cabaña Los Hornillos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum
+                    imperdiet. Duis sagittis ipsum.</p>
+                <p class="precio">$50.000 / día</p>
+                <a href="reservas.html" class="boton-reservar">Reservar Cabaña</a>
+            </article>
+
+            <article class="tarjeta-cabania">
+                <img src="./recursos/imagenes/modelo3.webp" alt="Cabaña San Javier de arquitectura bioclimática"
+                    class="imagen-cabania">
+                <h2>Cabaña San Javier</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tellus sed augue semper porta.
+                    Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+                <p class="precio">$55.000 / día</p>
+                <a href="reservas.html" class="boton-reservar">Reservar Cabaña</a>
+            </article>
+
+            <article class="tarjeta-cabania">
+                <img src="./recursos/imagenes/modelo4.webp" alt="Cabaña Traslasierra con hogar a leña"
+                    class="imagen-cabania">
+                <h2>Cabaña Traslasierra</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos.</p>
+                <p class="precio">$60.000 / día</p>
+                <a href="reservas.html" class="boton-reservar">Reservar Cabaña</a>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2026 Retiro Sustentable - Estudio Copan Arquitectura. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

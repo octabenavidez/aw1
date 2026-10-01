@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Reservas</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <a href="index.html" class="enlace-logo">
+            <img src="./recursos/imagenes/logo-rs.svg" alt="Retiro Sustentable - Logotipo de las cabañas" class="logo">
+        </a>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html" class="enlace-menu">Inicio</a></li>
+                <li><a href="reservas.html" class="enlace-menu activo">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <h1 class="titulo-principal">Reservas y Consultas</h1>
+        <p class="texto-intro">Completa el formulario a continuación para solicitar disponibilidad o consultar sobre la
+            estadía en nuestras cabañas.</p>
+
+        <section class="contenedor-formulario">
+            <!-- 
+                creamos el formulario con el action vacio dado que al dejarlo asi significa que se autoenviara a la misma pagina los datos del formulario a traves del metodo post y lo usamos dado que enviamos datos sensibles.
+            -->
+            <form action="" method="post" class="formulario-reserva">
+
+                <!-- 
+                    vinculamos cada <label> con el input correspondiente a traves del atributo 'for' y el 'id' del campo de entrada, lo cual es crucial para accesibilidad y usabilidad (permite hacer clic en el texto para activar el input).
+                -->
+
+                <!-- agregamos el atributo required a los campos obligatorios para hacer una validación nativa directa en el navegador antes de enviar -->
+
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="telefono">Teléfono de contacto:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 351 1234567" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="fecha-desde">Fecha desde:</label>
+                    <input type="date" id="fecha-desde" name="fecha_desde" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="fecha-hasta">Fecha hasta:</label>
+                    <input type="date" id="fecha-hasta" name="fecha_hasta" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="comentarios">Comentario o consulta adicional:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4"
+                        placeholder="Escribe aquí cualquier consulta o pedido..."></textarea>
+                </div>
+
+                <button type="submit" class="boton-enviar">Enviar Solicitud de Reserva</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2026 Retiro Sustentable - Estudio Copan Arquitectura. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
