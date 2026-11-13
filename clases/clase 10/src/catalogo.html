@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./recursos/css/index.css">
     <title>Tienda Huellitas - Catálogo</title>
+    <script type="module" src="./recursos/js/index.js"></script>
 </head>
 
 <body>
@@ -20,23 +21,18 @@
     </header>
     <main>
         <h1>Catálogo</h1>
+        <input type="text" id="filtro">
+        <button id="evento-boton">Abrir diálogo</button>
+        <dialog id="dialogo">
+            <p>Este es un diálogo de ejemplo</p>
+            <form method="dialog">
+                <button>Cerrar</button>
+            </form>
+        </dialog>
+        <p>Productos en el carrito: <span id="contador">0</span></p>
         <section>
             <h2>Productos</h2>
-            <div>
-                <article>
-                    <h3>Collar de perro</h3>
-                    <picture>
-                        <img src="./recursos/imagenes/productos/correa.jpg" alt="correa para perro">
-                        <p>
-                            Correa de 5mts para perro
-                        </p>
-                    </picture>
-                    <ul>
-                        <li>Talles S M L</li>
-                        <li>Precio $10000</li>
-                    </ul>
-                </article>
-            </div>
+            <div id="contenedor-productos"></div>
         </section>
     </main>
     <footer>

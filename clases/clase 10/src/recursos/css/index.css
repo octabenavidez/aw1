@@ -53,10 +53,14 @@ a {
     background-color: #ccc;
     padding: 10px;
     border: 2px solid #000;
-    
+
 }
 
 /* Pie de página */
 .pie-principal {
     background-color: #FF577F;
+}
+
+img {
+    width: 250px;
 }
